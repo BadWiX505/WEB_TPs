@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>CloudTech - À propos</title>
+</head>
+
+<body>
+   <header>
+    <nav>
+        <span class="logo">CloudTech</span>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        
+        <label for="menu-toggle" class="hamburger">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="nav-links">
+            <li><a href="index.html" class="selected">Accueil</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="gallery.html">Galerie</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <section class="hero-main">
+            <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1920 1920w">
+                <source media="(min-width: 768px)"
+                    srcset="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1200 1200w">
+                <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800"
+                    srcset="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400 400w,
+                     https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800 800w,
+                     https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1200 1200w"
+                    sizes="100vw" alt="Infrastructure cloud moderne et solutions numériques" class="hero-image">
+            </picture>
+
+            <div class="hero-content">
+                <h1>Propulsez Votre Entreprise dans le Cloud</h1>
+                <p>Infrastructure cloud performante, sécurisée et évolutive pour accompagner votre croissance digitale
+                </p>
+                <a href="contact.html" class="btn btn-primary">Déployer Votre Solution</a>
+            </div>
+        </section>
+
+
+        <section class="services-preview" id="services">
+            <div class="container">
+                <div class="title-container">
+                    <h2 class="section-title">Nos Services Cloud</h2>
+                    <p class="section-description">Des solutions cloud complètes pour la performance et la sécurité de
+                        votre entreprise</p>
+                </div>
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+                        <h3>Hébergement Cloud</h3>
+                        <p>Hébergement rapide et fiable pour vos sites web et applications.</p>
+                        <a href="services.html#hosting" class="btn-link">En savoir plus →</a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <h3>Stockage Cloud</h3>
+                        <p>Stockage sécurisé et accessible pour vos données professionnelles.</p>
+                        <a href="services.html#storage" class="btn-link">En savoir plus →</a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+                        <h3>Infrastructure Cloud</h3>
+                        <p>Solutions cloud évolutives adaptées aux besoins de votre entreprise.</p>
+                        <a href="services.html#cloud" class="btn-link">En savoir plus →</a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3>Sécurité Cloud</h3>
+                        <p>Protection avancée avec firewall et chiffrement des données.</p>
+                        <a href="services.html#security" class="btn-link">En savoir plus →</a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+                        </div>
+                        <h3>Migration Cloud</h3>
+                        <p>Migration sécurisée de vos systèmes vers une infrastructure cloud moderne.</p>
+                        <a href="services.html#migration" class="btn-link">En savoir plus →</a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <h3>Monitoring</h3>
+                        <p>Surveillance 24/7 de vos serveurs et de vos performances cloud.</p>
+                        <a href="services.html#monitoring" class="btn-link">En savoir plus →</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="video-section">
+            <div class="container">
+                <h2 class="section-title">Notre Expertise Cloud</h2>
+
+                <div class="video-wrapper">
+                    <video autoplay muted loop playsinline>
+                        <source src="https://cdn.coverr.co/videos/coverr-temp-zna6gen-3-alpha-2777358279-a-dynamic-time-lapse-mp4-5453/1080p.mp4"
+                            type="video/mp4"> type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                </div>
+
+                <p class="video-description">
+                    Découvrez comment notre équipe conçoit et déploie des infrastructures cloud fiables pour les
+                    entreprises modernes.
+                </p>
+            </div>
+        </section>
+
+
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="title-container">
+                    <h2 class="section-title">Ils Nous Font Confiance</h2>
+                    <p class="section-description">Des entreprises qui utilisent nos solutions cloud</p>
+                </div>
+
+                <div class="testimonials-grid">
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <blockquote>
+                            <p>"CloudTech a modernisé toute notre infrastructure. Nos applications sont maintenant plus
+                                rapides et plus fiables."</p>
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+                                alt="Sophie Martin" loading="lazy">
+                            <div>
+                                <strong>Sophie Martin</strong>
+                                <span>CEO, TechStart</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <blockquote>
+                            <p>"La migration vers leur cloud a été rapide et sans interruption de service."</p>
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+                                alt="Marc Dubois" loading="lazy">
+                            <div>
+                                <strong>Marc Dubois</strong>
+                                <span>Directeur IT, EcomPlus</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <blockquote>
+                            <p>"Une équipe experte et un support technique disponible 24/7 pour notre infrastructure
+                                cloud."</p>
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+                                alt="Julie Lefebvre" loading="lazy">
+                            <div>
+                                <strong>Julie Lefebvre</strong>
+                                <span>Fondatrice, HealthCare Pro</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Rejoignez l'Aventure</h2>
+                <p>Prêt à travailler avec nous ?</p>
+                <a href="contact.html" class="btn btn-primary">Contactez-nous</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CloudTech Solutions</h3>
+                    <p>Votre partenaire cloud de confiance depuis 2010</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Plan du Site</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Galerie</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul class="contact-info">
+                        <li><i class="fa-solid fa-envelope"></i> contact@cloudtech.com</li>
+                        <li><i class="fa-solid fa-phone"></i> +212 6 00 00 00 00 </li>
+                        <li><i class="fa-solid fa-location-dot"></i> Mohammedia, Maroc</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 CloudTech Solutions. Tous droits réservés.</p>
+                <div class="legal-links">
+                    <a href="#mentions-legales">Mentions Légales</a>
+                    <a href="#politique-confidentialite">Politique de Confidentialité</a>
+                    <a href="#cgv">CGV</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
